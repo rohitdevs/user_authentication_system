@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Roboto&display=swap');
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F8FAFC;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+
+
+.maincontainer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insidecontainer{
+  width: 444px;
+  height: 537px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form>button{
+  display: flex;
+width: 352px;
+height: 55.804px;
+padding: 9px 14px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 6px;
+background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+color: #FFF;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: 18px; /* 112.5% */
+text-transform: uppercase;
+cursor: pointer;
+}
+
+form input{
+  display: flex;
+width: 352px;
+height: 37px;
+padding: 0px 12px;
+align-items: flex-start;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 6px;
+border: 1px solid #DEDEDE;
+
+}
+
+.signupp{
+  display: flex;
+width: 340px;
+height: 37px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #625BF7;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
