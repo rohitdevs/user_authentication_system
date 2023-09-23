@@ -6,10 +6,18 @@ function signup(e){
 event.preventDefault();
 
 
+
+
 var name=document.getElementById("name").value;
 var email=document.getElementById("email").value;
 var password=document.getElementById("password").value;
+var password2=document.getElementById("cpassword").value;
 
+if(password!=password2)
+{
+  alert('password doesnt match');
+  return;
+}
 
 
 var user={
